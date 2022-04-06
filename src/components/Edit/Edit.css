@@ -1,0 +1,75 @@
+.modalofedit_inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
+  padding-top: 150px;
+}
+.modalofedit {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-around;
+}
+.edit_inp {
+  height: 40px;
+  text-align: center;
+  margin: 5px;
+  font-weight: bold;
+}
+.edit_btn1 {
+  height: 40px;
+  width: 400px;
+  background-color: rgb(70, 70, 209);
+  border: 1px solid rgb(70, 70, 209);
+  margin-top: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.edit_btn2 {
+  height: 40px;
+  width: 400px;
+  background-color: rgb(70, 70, 209);
+  border: 1px solid rgb(70, 70, 209);
+  margin-top: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.edit {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/vehicles/2022/my23/x-models/x2/overview/desktop/BMW-MY23-X2-Overview-FMA-Desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+@media (max-width: 700px) {
+  .modalofedit_inner {
+    width: 300px;
+  }
+  .edit_btn1 {
+    width: 300px;
+  }
+  .edit_btn2 {
+    width: 300px;
+  }
+  .modalofedit {
+    justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .modalofedit_inner {
+    width: 200px;
+  }
+  .edit_btn1 {
+    width: 200px;
+  }
+  .edit_btn2 {
+    width: 200px;
+  }
+  .modalofedit {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,51 @@
+.main {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/homepage/fmas/2022-02/desktop/BMW-iModels-Homepage-FMA-Desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+.main_h1 {
+  color: white;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+.main_h2 {
+  color: white;
+  text-transform: uppercase;
+}
+.main_btn {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(70, 70, 209);
+  border: 1px solid rgb(70, 70, 209);
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 50px;
+  transition: 0.2s;
+}
+.main_btn:hover {
+  background-color: rgb(0, 70, 209);
+  border: 1px solid rgb(0, 70, 209);
+}
+.main_h3 {
+  color: white;
+  margin-top: 400px;
+  font-size: 25px;
+}
+.main_block2 {
+  display: flex;
+  margin-top: 150px;
+}
+.main_block1 {
+  margin-top: 50px;
+}

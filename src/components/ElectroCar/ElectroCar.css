@@ -1,0 +1,448 @@
+.electro_main {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/all-electric-page/ev-superbowl/desktop/BMW-Phase3-EV-FMA-Desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  transition: 2s;
+}
+
+.electro_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.electro_btn {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.electro_btn:hover {
+  background-color: rgb(199, 190, 190);
+}
+.electro_h2 {
+  color: white;
+}
+.electro_h1 {
+  font-size: 50px;
+  color: white;
+  padding-left: 60px;
+}
+.electro_footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.electro_footer_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.electro_middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+}
+.electro_two_main {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/all-electric-page/ev-superbowl/desktop/BMW-SB-EvHub-Models-Desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.electro_text {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.main_middle_electro {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+.electro_p {
+  width: 100%;
+  max-width: 500px;
+}
+.electro_buttons_down {
+  margin-top: 50px;
+}
+.electro_img_block {
+  width: 100%;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding-top: 100px;
+}
+.electro_img_block_img {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.electro_img_block1 {
+  background-color: black;
+  margin-top: -5px;
+}
+.main_three {
+  background-color: black;
+}
+.threeText {
+  display: flex;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 100px 0;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+  border-left: 2px solid white;
+  padding-left: 20px;
+  height: 200px;
+  color: white;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+  padding-left: 20px;
+  height: 200px;
+  border-left: 2px solid white;
+  color: white;
+}
+.text3 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+  padding-left: 20px;
+  height: 200px;
+  border-left: 2px solid white;
+  color: white;
+}
+.text1_p {
+  width: 100%;
+  max-width: 300px;
+  font-size: 16px;
+}
+.text1_title {
+  font-size: 30px;
+}
+.pb {
+  width: 100%;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.bp {
+  width: 250px;
+  height: 45px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  margin: 0 auto;
+  margin: 60px auto;
+  transition: 1s;
+  cursor: pointer;
+}
+.bp:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+}
+.bp_img {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/all-electric-page/ev-superbowl/desktop/BMW-SB-EvHub-Range-Desktop.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.linka {
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.linka:hover {
+  color: black;
+}
+.main_footer {
+  background-color: black;
+}
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  color: white;
+  justify-content: space-between;
+
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer3 {
+  display: flex;
+  flex-direction: column;
+}
+.footer4 {
+  display: flex;
+  flex-direction: column;
+}
+.before_footer_main {
+  background-color: black;
+}
+.before_footer {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  border-bottom: 2px solid white;
+  padding-bottom: 200px;
+}
+.before_footer_img {
+  width: 50vw;
+}
+.before_footer2 {
+  padding-top: 100px;
+}
+.footera {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  opacity: 0.75;
+}
+.footera:hover {
+  opacity: 2;
+}
+.footer_logo {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}
+.insta:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+@media electro_nav and (max-width: 1000px) {
+  .footer {
+    justify-content: space-around;
+  }
+  .text1_p {
+    width: 220px;
+    font-size: 14px;
+  }
+  .text1_title {
+    font-size: 25px;
+  }
+  .pp {
+    width: 300px;
+  }
+  .electro_footer_link {
+    justify-content: space-around;
+  }
+  .electro_h1 {
+    font-size: 40px;
+  }
+  .electro_btn {
+    background-color: black;
+  }
+}
+.pp {
+  max-width: 400px;
+  color: "white";
+  width: "100%";
+}
+.electro_h11 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .footer {
+    justify-content: space-around;
+  }
+  .electro_footer_link {
+    justify-content: space-around;
+  }
+  .electro_h2 {
+    margin-left: 10px;
+  }
+  .electro_btn {
+    margin-right: 10px;
+  }
+  .electro_h4 {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 880px) {
+  .electro_h1 {
+    font-size: 30px;
+  }
+
+  .before_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .before_footer_img {
+    width: 100%;
+  }
+  .electro_middle {
+    margin: 100px 0;
+  }
+}
+@media (max-width: 800px) {
+  .electro_h1 {
+    display: none;
+  }
+  .linka {
+    font-size: 14px;
+  }
+  .electro_h3 {
+    width: 400px;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .text1_title {
+    font-size: 20px;
+  }
+  .electro_h11 {
+    font-size: 30px;
+  }
+  .footer1 {
+    margin: 20px;
+    width: 29%;
+  }
+  .footer2 {
+    margin: 20px;
+    width: 29%;
+  }
+  .footer3 {
+    margin: 20px;
+    width: 29%;
+  }
+  .footer4 {
+    margin: 20px;
+    width: 29%;
+  }
+  .pb {
+    width: 400px;
+  }
+}
+@media (max-width: 505px) {
+  .electro_buttons_down {
+    padding: 20px;
+  }
+  .electro_text {
+    padding: 20px;
+  }
+  .text1 {
+    padding-left: 10px;
+  }
+  .text2 {
+    padding-left: 10px;
+  }
+  .text3 {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .linka {
+    font-size: 10px;
+  }
+  .text1_title {
+    font-size: 16px;
+  }
+  .electro_btn {
+    width: 100px;
+    font-size: 13px;
+    margin-right: 10px;
+    height: 40px;
+  }
+  .electro_h3 {
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+  }
+  .electro_p {
+    font-size: 12px;
+    width: 200xp;
+  }
+  .pb {
+    font-size: 14px;
+    width: 300px;
+  }
+  .pp {
+    font-size: 13px;
+    max-width: 200px;
+  }
+  .electro_middle {
+    margin: 50px 0;
+  }
+  .footera {
+    font-size: 10px;
+  }
+  .footer_logo {
+    justify-content: space-evenly;
+  }
+  .electro_h2 {
+    font-size: 20px;
+  }
+  .text1_p {
+    font-size: 12px;
+  }
+  .electro_h11 {
+    font-size: 15px;
+  }
+  .electro_h4 {
+    font-size: 10px;
+  }
+  .bp {
+    width: 200px;
+  }
+}

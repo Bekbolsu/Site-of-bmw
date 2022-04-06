@@ -1,0 +1,13 @@
+.select {
+  width: 400px;
+  margin-top: 20px;
+}
+@media all and (max-width: 420px) {
+  .slide {
+    width: 200px;
+    margin: 20px auto 0;
+  }
+  .select {
+    width: 300px;
+  }
+}

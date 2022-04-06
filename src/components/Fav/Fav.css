@@ -1,0 +1,56 @@
+.mainestFav {
+  background: url("https://www.shopbmwusa.com/Images/FMA/Wheelsfma-image-medium-001.avif?v=8");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  height: calc(100vh);
+}
+.main_fav {
+  display: flex;
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 20px;
+}
+::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 2px;
+  border-radius: 2px;
+  border-color: #777;
+  background-color: #aaa;
+}
+::-webkit-scrollbar-track {
+  border-width: 0;
+}
+.container1 {
+  padding-left: 50px;
+}
+
+.img_cart1 {
+  width: 270px;
+  margin-left: 140px;
+}
+
+@media (max-width: 850px) {
+  .img_cart1 {
+    width: 150px;
+  }
+}
+@media (max-width: 700px) {
+  .container1 {
+    padding-left: 5px;
+  }
+}
+@media (max-width: 650px) {
+  .main_fav {
+    flex-direction: column;
+  }
+  .container1 {
+    display: flex;
+    justify-content: space-around;
+  }
+}

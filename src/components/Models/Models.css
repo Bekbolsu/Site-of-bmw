@@ -1,0 +1,131 @@
+.model_main {
+  background: url("https://cdn.wallpapersafari.com/2/21/MfVlBU.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  height: calc(100vh);
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 20px;
+}
+::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 2px;
+  border-radius: 2px;
+  border-color: #777;
+  background-color: #aaa;
+}
+::-webkit-scrollbar-track {
+  border-width: 0;
+}
+.model_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.model_card_car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.model_card_car:hover {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px white;
+  cursor: pointer;
+}
+.model_img {
+  width: 200px;
+}
+.model_h1 {
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin-top: 50px;
+  color: white;
+}
+.model_cars {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+.models_btn {
+  width: 50px;
+  height: 30px;
+}
+.x {
+  display: flex;
+  margin-bottom: 50px;
+}
+.sedun {
+  display: flex;
+  margin-bottom: 50px;
+}
+.cuopes {
+  display: flex;
+  margin-bottom: 50px;
+}
+.model__h1 {
+  margin-top: 40px;
+  border-bottom: 2px solid white;
+  color: white;
+  margin-right: 50px;
+}
+.last_img_m {
+  width: 100%;
+}
+.h1_model {
+  color: white;
+}
+@media all and (max-width: 830px) {
+  .model__h1 {
+    margin-right: 0px;
+  }
+}
+@media all and (max-width: 770px) {
+  .model_img {
+    width: 150px;
+  }
+  .model__h1 {
+    font-size: 25px;
+  }
+}
+@media all and (max-width: 615px) {
+  .model_card_car {
+    width: 130px;
+  }
+}
+@media all and (max-width: 550px) {
+  .model_card_car {
+    width: 110px;
+  }
+  .h1_model {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 510px) {
+  .model__h1 {
+    display: none;
+  }
+}
+@media all and (max-width: 415px) {
+  .model_card_car {
+    width: 100px;
+  }
+  .model_img {
+    width: 100px;
+  }
+}
+@media all and (max-width: 380px) {
+  .model_card_car {
+    width: 80px;
+  }
+  .h1_model {
+    font-size: 17px;
+  }
+}

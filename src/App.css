@@ -1,0 +1,23 @@
+.App {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.MenuMain {
+  display: none;
+}
+@media (max-width: 650px) {
+  .MenuMain {
+    display: block;
+    width: "100px";
+    background: "black";
+    position: "absolute";
+    left: "10%";
+    top: "1%";
+  }
+}

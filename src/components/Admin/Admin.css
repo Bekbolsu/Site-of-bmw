@@ -1,0 +1,134 @@
+.main_admin {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/XModels/X5/myu-2022/bmw-m/desktop/BMW-MY22-X5-DP-M50i-FMA-Desktop-v2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.admin_crud {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  border-radius: 20px;
+  margin-top: 150px;
+}
+.admin_inp {
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  height: 20px;
+  border: 1px solid white;
+  height: 40px;
+  text-align: center;
+  margin: 5px 0px;
+}
+.admin_inp::placeholder {
+  color: black;
+}
+.admin_btn_add {
+  background: rgb(70, 70, 209);
+  color: white;
+  border: 1px solid rgb(70, 70, 209);
+  height: 50px;
+  font-size: 17px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.admin_btn_add:hover {
+  background-color: rgb(0, 70, 209);
+}
+.main_admin_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.main_admin1 {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.admin_h1 {
+  color: white;
+  font-size: 35px;
+  padding-top: 50px;
+}
+.admin_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  height: 340px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 10px;
+  align-items: center;
+}
+.list_h1 {
+  color: black;
+  border-bottom: 2px solid black;
+}
+.list_h2 {
+  color: black;
+  margin: 0;
+}
+.main_list {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.list_of_card {
+  background-color: black;
+}
+.list_delete {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(70, 70, 209);
+  border: 1px solid rgb(70, 70, 209);
+  color: white;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+.list_edit {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(70, 70, 209);
+  border: 1px solid rgb(70, 70, 209);
+  color: white;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+.list_buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.admin_img {
+  width: 300px;
+}
+@media (max-width: 700px) {
+  .admin_crud {
+    width: 250px;
+  }
+  .main_admin_inner {
+    justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .admin_img {
+    width: 200px;
+  }
+  .admin_list {
+    height: 280px;
+    width: 300px;
+  }
+}

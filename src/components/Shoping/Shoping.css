@@ -1,0 +1,207 @@
+.main_shoping {
+  background: black;
+}
+.main_shoping1 {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/certified-preowned/desktop/BMW-2022-CPO-Homepage-FMA-Desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 20px;
+}
+::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 2px;
+  border-radius: 2px;
+  border-color: #777;
+  background-color: #aaa;
+}
+::-webkit-scrollbar-track {
+  border-width: 0;
+}
+.main_shoping_inner {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card_shop {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  height: 350px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.img_main_shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_shop {
+  height: 150px;
+  transition: 1s;
+  display: block;
+  margin-left: 30px;
+}
+
+.img_shop:hover {
+  rotate: 2px;
+  transform: scale(1.2);
+}
+
+/* .card_shop:hover {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px white;
+  cursor: pointer;
+} */
+.shop_h3 {
+  margin-top: -20px;
+}
+.heart {
+  width: 50px;
+}
+.btnlogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.shop_delete {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(70, 70, 209);
+  color: white;
+  border: 1px solid rgb(70, 70, 209);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.shop_h1 {
+  border-bottom: 3px solid black;
+}
+.shop_dream {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.dream_h1 {
+  font-size: 60px;
+
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.dream_h11 {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shop_inp {
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-right: 10px;
+  transition: 3s;
+  margin-bottom: 40px;
+  height: 30px;
+}
+.a_shop {
+  display: flex;
+  justify-content: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+.prev {
+  cursor: pointer;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid rgb(70, 70, 209);
+  background-color: rgb(70, 70, 209);
+  color: white;
+}
+.next {
+  cursor: pointer;
+  width: 80px;
+  border-radius: 5px;
+  border: 1px solid rgb(70, 70, 209);
+  background-color: rgb(70, 70, 209);
+  color: white;
+}
+.shop_search {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.fuck {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fuck1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media all and (max-width: 730px) {
+  .shop_search {
+    flex-direction: column;
+  }
+  .dream_h1 {
+    font-size: 40px;
+
+    text-align: center;
+    margin-left: 20px;
+  }
+  .shop_dream {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media all and (max-width: 410px) {
+  .dream_h1 {
+    padding-left: 0px;
+  }
+  .file {
+    width: 200px;
+  }
+  .card_shop {
+    width: auto;
+  }
+  .down {
+    margin-left: 20px;
+  }
+}
+@media all and (max-width: 360px) {
+  .img_shop {
+    margin-left: 0;
+  }
+}
+@media all and (max-width: 330px) {
+  .dream_h1 {
+    font-size: 30px;
+  }
+  .card_shop {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}

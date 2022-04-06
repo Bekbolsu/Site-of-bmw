@@ -1,0 +1,50 @@
+.auth {
+  width: 40vw;
+  height: auto;
+}
+.mainestFifty {
+  background-color: black;
+}
+.mainlog {
+  display: flex;
+  justify-content: center;
+  color: black;
+  /* padding-right: 20px;
+  padding-top: 20px; */
+  margin: 0 auto;
+}
+.logOut {
+  width: 150px;
+  height: 50px;
+  border: 1px solid rgb(70, 70, 209);
+  background-color: rgb(70, 70, 209);
+  color: white;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-top: 50px;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+.regis {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/4Series/2020/lead-form/BMW-Lead-Form-4-Series-1280.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60vw;
+  height: 100vh;
+}
+.fifty {
+  display: flex;
+}
+.last1 {
+  display: flex;
+  position: relative;
+  background-color: black;
+}
+@media (max-width: 770px) {
+  .logOut {
+    top: 0;
+  }
+}

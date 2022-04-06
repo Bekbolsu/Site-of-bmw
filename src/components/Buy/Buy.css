@@ -1,0 +1,30 @@
+.buy_main {
+  background: url("https://www.bmwusa.com/content/dam/bmwusa/homepage/fmas/2022-03/desktop/BMW-2022-Offers-April-330i-xDrive-Sedan-Homepage-FMA-Desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.buy_main_inner {
+  border-radius: 10px;
+  width: 500px;
+}
+.buy_btn {
+  width: 200px;
+  height: 40px;
+  margin: 30px 0;
+  background-color: rgb(70, 70, 209);
+  border: 1px solid rgb(70, 70, 209);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.buy_inner_main {
+  background-color: white;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
