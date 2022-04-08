@@ -43,6 +43,15 @@
   position: relative;
   background-color: black;
 }
+@media (max-width: 1080px) {
+  .regis {
+    display: none;
+  }
+  .auth {
+    width: 100vw;
+    height: 100vh;
+  }
+}
 @media (max-width: 770px) {
   .logOut {
     top: 0;
